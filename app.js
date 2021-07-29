@@ -4,7 +4,7 @@ const port = process.env.PORT || 3000
 const path = require('path')
 
 app.get('/', function (req, res) {
-    res.send('Hola mundo!')
+    res.send('Mercado liebre Digital House')
 })
 
 app.get('/home', function(request, response){
