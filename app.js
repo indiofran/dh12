@@ -1,6 +1,6 @@
     const express = require('express')
 const app = express()
-const port = 3030
+const port = process.env.PORT || 3000
 const path = require('path')
 
 app.get('/', function (req, res) {
